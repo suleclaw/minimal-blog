@@ -162,6 +162,6 @@
 /* Replace line dividers with vertical spacing */
 .prose-terminal hr {
   border: none;
-  margin: 2.5rem 0;
+  margin: 1.5rem 0;
   padding: 0;
 }
