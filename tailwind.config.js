@@ -4,13 +4,13 @@ export default {
   theme: {
     extend: {
       colors: {
-        bg: '#0a0a0a',
-        surface: '#111111',
-        text: '#e8e4dd',
-        'text-dim': '#787167',
-        accent: '#f0a500',
-        'accent-glow': '#f0a50033',
-        border: '#1e1e1e',
+        bg: 'var(--color-bg)',
+        surface: 'var(--color-surface)',
+        text: 'var(--color-text)',
+        'text-dim': 'var(--color-text-dim)',
+        accent: 'var(--color-accent)',
+        'accent-glow': 'var(--color-accent-glow)',
+        border: 'var(--color-border)',
       },
       fontFamily: {
         mono: ['"Space Mono"', 'monospace'],
