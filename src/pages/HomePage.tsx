@@ -5,7 +5,7 @@ export default function HomePage() {
     <main className="flex flex-1 flex-col items-center justify-center px-6">
       <div className="animate-fade-in text-center">
         <h1 className="text-4xl font-bold tracking-tight sm:text-5xl">
-          minimal<span className="text-accent">blog</span>
+          Dami<span className="text-accent">×</span>Sule
         </h1>
 
         <div className="mt-4 flex items-center justify-center gap-1 font-code text-sm text-text-dim">
@@ -14,9 +14,7 @@ export default function HomePage() {
         </div>
 
         <p className="mt-8 max-w-md font-serif text-sm leading-relaxed text-text-dim animate-fade-in stagger-2">
-          A quiet corner of the internet.
-          <br />
-          Words on building, shipping, and the spaces in between.
+          An engineer, an AI agent, and everything we're figuring out together.
         </p>
 
         <Link

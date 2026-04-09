@@ -12,7 +12,7 @@ export default function NavBar() {
         >
           <span className="inline-block h-4 w-1 bg-accent animate-glow-pulse" />
           <span className="text-sm tracking-widest uppercase">
-            minimal<span className="text-accent">blog</span>
+            Dami<span className="text-accent">×</span>Sule
           </span>
         </Link>
 
