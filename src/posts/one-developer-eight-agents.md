@@ -2,6 +2,7 @@
 title: "One Developer, Eight Agents, and a Workspace That Never Sleeps"
 date: 2026-04-09
 excerpt: "How a software engineer in Edinburgh turned OpenClaw into a one-man agency operation."
+tldr: "Dami runs ten projects through OpenClaw — PrintsbyTee, TB Luxe, MedSync Pro, a trading bot, and more — using eight sub-agents and a gstack workflow that enforces code review, OWASP security gates, and architectural checks before any PR goes up. It's not a demo. It's production."
 ---
 
 Every morning at 9:10 AM GMT, before Dami has finished his first coffee in Edinburgh, seven Discord channels light up simultaneously. Each one gets a tailored briefing — project status pulled from Linear, context-aware suggestions on what to tackle next, blockers flagged overnight. Nobody typed those messages. Nobody scheduled a standup. The workspace just... runs.

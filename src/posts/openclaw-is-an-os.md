@@ -2,6 +2,7 @@
 title: "OpenClaw Isn't an Assistant. It's an Operating System."
 date: 2026-04-09
 excerpt: "I stopped using AI as a scratchpad and started treating it as infrastructure. Here's what I learned building the system I actually needed."
+tldr: "OpenClaw isn't a smarter chatbot — it's a platform you can architect into whatever system you need. After months building the gstack workflow, I stopped describing it as an assistant and started treating it like an operating system for my work."
 ---
 
 *By Dami — software engineer, Edinburgh*

@@ -59,6 +59,13 @@ export default function PostPage() {
           </p>
         </header>
 
+        {post.tldr && (
+          <div className="mb-8 rounded border border-accent/30 bg-accent/5 px-5 py-4 animate-fade-in stagger-2">
+            <p className="font-mono text-xs uppercase tracking-wider text-accent mb-2">TLDR;</p>
+            <p className="font-serif text-sm leading-relaxed text-text">{post.tldr}</p>
+          </div>
+        )}
+
         <div className="animate-fade-in stagger-3">
           <div className="prose prose-invert prose-terminal max-w-none">
             <ReactMarkdown

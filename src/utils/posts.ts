@@ -5,6 +5,7 @@ export interface PostMeta {
   title: string;
   date: string;
   excerpt: string;
+  tldr: string;
   readingTime: number;
 }
 
@@ -42,6 +43,7 @@ function parsePost(filePath: string, raw: string): Post {
     title: data.title ?? 'Untitled',
     date: formatDate(new Date(data.date)),
     excerpt: data.excerpt ?? '',
+    tldr: data.tldr ?? '',
     readingTime: estimateReadingTime(content),
     content,
   };
