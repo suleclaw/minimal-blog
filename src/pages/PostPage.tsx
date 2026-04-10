@@ -11,6 +11,7 @@ export default function PostPage() {
   const post = slug ? getPostBySlug(slug) : undefined;
 
   useEffect(() => {
+    window.scrollTo(0, 0);
     if (post) {
       document.title = `${post.title} | Dami×Sule`;
     }
